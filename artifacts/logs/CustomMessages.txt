@@ -1,0 +1,186 @@
+2025-07-23 16:00:47 - INFO - Database downloaded successfully.
+2025-07-23 16:00:47 - INFO - Loaded data shape: (41188, 9)
+2025-07-23 16:00:47 - INFO - Split -> train:(32950, 9), val:(4119, 9), test:(4119, 9)
+2025-07-23 16:00:47 - INFO - After FE: (32950, 9)
+2025-07-23 16:00:47 - INFO - After FE: (4119, 9)
+2025-07-23 16:00:47 - INFO - After FE: (4119, 9)
+2025-07-23 16:00:47 - INFO - X:(32950, 8), y:(32950,)
+2025-07-23 16:00:47 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:00:47 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:23:20 - INFO - Starting data pipeline...
+2025-07-23 16:23:20 - INFO - Database downloaded successfully.
+2025-07-23 16:23:21 - INFO - Loaded data shape: (41188, 9)
+2025-07-23 16:23:21 - INFO - Split -> train:(32950, 9), val:(4119, 9), test:(4119, 9)
+2025-07-23 16:23:21 - INFO - After FE: (32950, 9)
+2025-07-23 16:23:21 - INFO - After FE: (4119, 9)
+2025-07-23 16:23:21 - INFO - After FE: (4119, 9)
+2025-07-23 16:23:21 - INFO - X:(32950, 8), y:(32950,)
+2025-07-23 16:23:21 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:23:21 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:23:21 - INFO - Starting model pipeline...
+2025-07-23 16:25:23 - INFO - Starting data pipeline...
+2025-07-23 16:25:24 - INFO - Database downloaded successfully.
+2025-07-23 16:25:24 - INFO - Loaded data shape: (41188, 9)
+2025-07-23 16:25:24 - INFO - Split -> train:(32950, 9), val:(4119, 9), test:(4119, 9)
+2025-07-23 16:25:24 - INFO - After FE: (32950, 9)
+2025-07-23 16:25:24 - INFO - After FE: (4119, 9)
+2025-07-23 16:25:24 - INFO - After FE: (4119, 9)
+2025-07-23 16:25:24 - INFO - X:(32950, 8), y:(32950,)
+2025-07-23 16:25:24 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:25:24 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:25:24 - INFO - Starting model pipeline...
+2025-07-23 16:25:50 - INFO - 
+Validation metrics:
+        model split  accuracy  f1_macro
+random_forest   val  0.620782  0.078217
+   grad_boost   val  0.625152  0.076946
+      log_reg   val  0.625152  0.076935
+2025-07-23 16:25:50 - INFO - 
+Test metrics:
+        model split  accuracy  f1_macro
+random_forest  test  0.628308  0.079413
+   grad_boost  test  0.633649  0.077789
+      log_reg  test  0.634134  0.077611
+2025-07-23 16:25:50 - INFO - 
+=== Detailed report for best model: random_forest (test) ===
+              precision    recall  f1-score   support
+
+           0       0.63      0.99      0.77      2612
+           1       0.22      0.01      0.02       950
+           2       0.00      0.00      0.00       339
+           3       0.00      0.00      0.00       114
+           4       0.00      0.00      0.00        54
+           5       0.00      0.00      0.00        24
+           6       0.00      0.00      0.00        16
+           7       0.00      0.00      0.00         6
+           8       0.00      0.00      0.00         3
+           9       0.00      0.00      0.00         1
+
+    accuracy                           0.63      4119
+   macro avg       0.09      0.10      0.08      4119
+weighted avg       0.45      0.63      0.49      4119
+
+2025-07-23 16:25:50 - INFO - Confusion matrix:
+[[2577   31    3    1    0    0    0    0    0    0]
+ [ 938   11    0    1    0    0    0    0    0    0]
+ [ 333    6    0    0    0    0    0    0    0    0]
+ [ 112    1    1    0    0    0    0    0    0    0]
+ [  53    1    0    0    0    0    0    0    0    0]
+ [  24    0    0    0    0    0    0    0    0    0]
+ [  16    0    0    0    0    0    0    0    0    0]
+ [   6    0    0    0    0    0    0    0    0    0]
+ [   3    0    0    0    0    0    0    0    0    0]
+ [   1    0    0    0    0    0    0    0    0    0]]
+2025-07-23 16:35:15 - INFO - Starting data pipeline...
+2025-07-23 16:35:17 - INFO - Database downloaded successfully.
+2025-07-23 16:35:17 - INFO - Loaded data shape: (41188, 9)
+2025-07-23 16:35:17 - INFO - Split -> train:(32950, 9), val:(4119, 9), test:(4119, 9)
+2025-07-23 16:35:17 - INFO - After FE: (32950, 9)
+2025-07-23 16:35:17 - INFO - After FE: (4119, 9)
+2025-07-23 16:35:17 - INFO - After FE: (4119, 9)
+2025-07-23 16:35:17 - INFO - X:(32950, 8), y:(32950,)
+2025-07-23 16:35:17 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:35:17 - INFO - X:(4119, 8), y:(4119,)
+2025-07-23 16:35:17 - INFO - Starting model pipeline...
+2025-07-23 16:48:49 - INFO - Running data pipeline...
+2025-07-23 16:48:49 - INFO - Database downloaded.
+2025-07-23 16:48:49 - INFO - Loaded data shape: (41188, 9)
+2025-07-23 16:48:50 - INFO - After FE: (41188, 9)
+2025-07-23 16:48:50 - INFO - X_train:(32950, 8), y_train:(32950,)
+2025-07-23 16:48:50 - INFO - Running models pipeline...
+2025-07-23 16:48:50 - INFO - Preprocessing columns -> num:5, cat:2
+2025-07-23 16:48:50 - INFO - Training model: log_reg
+2025-07-23 16:48:50 - INFO - Training model: random_forest
+2025-07-23 16:48:52 - INFO - Training model: grad_boost
+2025-07-23 16:49:01 - INFO - All models trained.
+2025-07-23 16:49:01 - INFO - [val] log_reg               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      4018
+           1       0.00      0.00      0.00        94
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         2
+
+    accuracy                           0.98      4119
+   macro avg       0.24      0.25      0.25      4119
+weighted avg       0.95      0.98      0.96      4119
+
+2025-07-23 16:49:01 - INFO - [val] random_forest               precision    recall  f1-score   support
+
+           0       0.98      0.79      0.87      4018
+           1       0.03      0.22      0.06        94
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         2
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.77      4119
+   macro avg       0.20      0.20      0.19      4119
+weighted avg       0.95      0.77      0.85      4119
+
+2025-07-23 16:49:01 - INFO - [val] grad_boost               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      4018
+           1       0.00      0.00      0.00        94
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         2
+
+    accuracy                           0.97      4119
+   macro avg       0.24      0.25      0.25      4119
+weighted avg       0.95      0.97      0.96      4119
+
+2025-07-23 16:49:01 - INFO - [test] log_reg               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      4018
+           1       0.00      0.00      0.00        95
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         1
+
+    accuracy                           0.98      4119
+   macro avg       0.24      0.25      0.25      4119
+weighted avg       0.95      0.98      0.96      4119
+
+2025-07-23 16:49:02 - INFO - [test] random_forest               precision    recall  f1-score   support
+
+           0       0.98      0.79      0.87      4018
+           1       0.03      0.19      0.05        95
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         1
+           4       0.00      0.00      0.00         0
+
+    accuracy                           0.77      4119
+   macro avg       0.20      0.20      0.18      4119
+weighted avg       0.95      0.77      0.85      4119
+
+2025-07-23 16:49:02 - INFO - [test] grad_boost               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      4018
+           1       0.00      0.00      0.00        95
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         1
+
+    accuracy                           0.98      4119
+   macro avg       0.24      0.25      0.25      4119
+weighted avg       0.95      0.98      0.96      4119
+
+2025-07-23 16:49:02 - INFO - Validation metrics:        model split  accuracy  balanced_acc  f1_macro
+      log_reg   val  0.975479      0.250000  0.246897
+   grad_boost   val  0.974508      0.249751  0.246772
+random_forest   val  0.774460      0.253026  0.186115
+2025-07-23 16:49:02 - INFO - Test metrics:        model split  accuracy  balanced_acc  f1_macro
+      log_reg  test  0.975479      0.250000  0.246897
+   grad_boost  test  0.975237      0.249938  0.246866
+random_forest  test  0.771304      0.243921  0.183806
+2025-07-23 16:49:02 - INFO - === Best model on test: log_reg ===               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99      4018
+           1       0.00      0.00      0.00        95
+           2       0.00      0.00      0.00         5
+           3       0.00      0.00      0.00         1
+
+    accuracy                           0.98      4119
+   macro avg       0.24      0.25      0.25      4119
+weighted avg       0.95      0.98      0.96      4119
+
+2025-07-23 16:49:02 - INFO - Confusion matrix: [[4018    0    0    0]
+ [  95    0    0    0]
+ [   5    0    0    0]
+ [   1    0    0    0]]
